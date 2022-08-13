@@ -133,6 +133,7 @@ body > section.hello > p > span{
 .ending{
     font-size: 1.5em;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin:200px 180px 80px 100px;
 }
