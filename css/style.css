@@ -3,7 +3,7 @@
 *{
     margin:0px;
     padding: 0px;
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
 body{
     background-color: #161618;
@@ -37,34 +37,30 @@ nav>div>h4{
     margin:100px 50px 0px 0px;
     list-style: none;
 }
-.listitems>li:hover,.homelogo>h4:hover, .ending>div>h4:hover,.recentworks>li:hover,.stranger>li:hover,.hello > p > span:hover,.link>div>*:hover{
+.listitems>li:hover,.homelogo>h4:hover, .ending>div>h4:hover,.recentworks>div>li:hover,.stranger>li:hover,.hello > p > span:hover,.link>div>*:hover,.recentworks>.links>*>li:hover{
     color: rgb(60, 226, 171);
     transition: 250ms;
 }
 .listitems>li:nth-child(3){
     margin:100px 100px 0px 0px;
 }
-.intro,.aboutme,.work {
+.intro,.aboutme,.work ,.hello{
     margin:220px 180px 80px 100px;
 }
-
+.recentworks,.link{
+    margin:200px 180px 80px 100px;
+}
 .intro h3{
     font-size: 4.5em;
     font-weight: 500;
 
 }
-.aboutme{
-    margin:180px 180px 80px 80px;
-}
+
 .aboutme h3,.recentworks h3,.work h3 ,.abilities h3,.stranger h3,.hello h3{
     font-size: 3em;
     font-weight: 700
 }
-.recentworks>li{
-    
-    margin-top: 20px;
-    font-size: 2em;
-}
+
 li{
     list-style: none;
 }
@@ -74,9 +70,7 @@ li{
     margin-top:50px;
     font-size: 2.5em;
 }
-.recentworks, .hello,.link{
-    margin:200px 180px 80px 100px;
-}
+
 
 body > section.hello > p > span{
     font-weight: 800;
@@ -99,16 +93,38 @@ body > section.hello > p > span{
     
 }
 
-.abilities>div>li:nth-child(2),.stranger>li:nth-child(2){
+.abilities>div>li:nth-child(2),.stranger>li:nth-child(2),.recentworks>.links>*>li:nth-child(1){
    margin-top: 50px;
     /* font-size: 1.5em; */
 }
-.abilities>div>li,.stranger>li,.link>div>li{
+.abilities>div>li,.stranger>li,.link>div>li,.recentworks>.links>*>li{
    
     font-size: 1.5em;
 
 }
+.recentworks>div{
+    /* margin:0px 50px 0px 0px; */
+    /* display: flex; */
+    display: flex;
+    /* margin-right: 100px; */
+    /* justify-content: space-between; */
+
+    /* display: inline; */
+}
+.recentworks>.links>*>li{
+    /* display: flex; */
+    margin-right: 100px;
+    
+}
+.recentworks>li{    
+    /* margin-top: 20px; */
+    /* font-size: 2em; */
+}
+.link>div{
+    /* display: inline; */
+}
 .link>div>li{
+    display: flex;
     margin-right: 100px;
 }
 .link{
