@@ -37,7 +37,7 @@ nav>div>h4{
     margin:100px 50px 0px 0px;
     list-style: none;
 }
-.listitems>li:hover,.homelogo>h4:hover, .ending>div>h4:hover,.recentworks>div>li:hover,.stranger>li:hover,.hello > p > span:hover,.link>div>*:hover,.recentworks>.links>*>li:hover{
+.listitems>li:hover,.homelogo>h4:hover, .ending>div>h4:hover,.recentworks>div>li:hover,.stranger>li:hover,.hello > p > span:hover,.link>div>*:hover,.recentworks>.links>*>li:hover,.linkedin>p>span:hover{
     color: rgb(60, 226, 171);
     transition: 250ms;
 }
@@ -45,6 +45,7 @@ nav>div>h4{
     margin:100px 100px 0px 0px;
 }
 .intro,.aboutme,.work ,.hello{
+  
     margin:220px 180px 80px 100px;
 }
 .recentworks,.link{
@@ -129,6 +130,15 @@ body > section.hello > p > span{
 }
 .link{
     display: flex;
+}
+.linkedin{
+    font-size: 2em;
+    text-align: left;
+    margin:20px 180px 80px 100px;
+}
+
+.linkedin>p>span{
+    font-weight: 800;
 }
 .ending{
     font-size: 1.5em;
