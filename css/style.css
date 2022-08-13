@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin:0px;
+    padding: 0px;
+    /* border: 1px solid red; */
+}
+body{
+    background-color: #161618;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+a { color: inherit; 
+    text-decoration: none;
+}
+nav{
+    background-color: #161618;
+    color: #fff;
+    display: flex;
+    font-size: 1.5em;
+    
+}
+nav>div>h4{
+    font-weight: 400;
+}
+.homelogo{
+    flex:2;
+    margin:100px 0px 0px 100px;
+}
+
+.listitems{
+    flex:0.5;
+    display: flex;
+}
+.listitems>li{
+    font-weight: 400;
+    margin:100px 50px 0px 0px;
+    list-style: none;
+}
+.listitems>li:hover,.homelogo>h4:hover, .ending>div>h4:hover,.recentworks>li:hover,.stranger>li:hover,.hello > p > span:hover,.link>div>*:hover{
+    color: rgb(60, 226, 171);
+    transition: 250ms;
+}
+.listitems>li:nth-child(3){
+    margin:100px 100px 0px 0px;
+}
+.intro,.aboutme,.work {
+    margin:220px 180px 80px 100px;
+}
+
+.intro h3{
+    font-size: 4.5em;
+    font-weight: 500;
+
+}
+.aboutme{
+    margin:180px 180px 80px 80px;
+}
+.aboutme h3,.recentworks h3,.work h3 ,.abilities h3,.stranger h3,.hello h3{
+    font-size: 3em;
+    font-weight: 700
+}
+.recentworks>li{
+    
+    margin-top: 20px;
+    font-size: 2em;
+}
+li{
+    list-style: none;
+}
+
+.aboutme p, .work p ,.hello p{
+    /* margin-right:200px; */
+    margin-top:50px;
+    font-size: 2.5em;
+}
+.recentworks, .hello,.link{
+    margin:200px 180px 80px 100px;
+}
+
+body > section.hello > p > span{
+    font-weight: 800;
+
+}
+
+.hello >p{
+    margin-right:200px;
+}
+.abilities{
+    margin:200px 180px 80px 100px;
+    display: flex;
+    justify-content: flex-end;
+}
+.stranger{
+    margin:200px 180px 80px 100px;
+
+}
+.left{
+    
+}
+
+.abilities>div>li:nth-child(2),.stranger>li:nth-child(2){
+   margin-top: 50px;
+    /* font-size: 1.5em; */
+}
+.abilities>div>li,.stranger>li,.link>div>li{
+   
+    font-size: 1.5em;
+
+}
+.link>div>li{
+    margin-right: 100px;
+}
+.link{
+    display: flex;
+}
+.ending{
+    font-size: 1.5em;
+    display: flex;
+    justify-content: space-between;
+    margin:200px 180px 80px 100px;
+}
+.ending>div>h4{
+    font-size: 2em;
+    margin-top: 20px;
+    font-weight: 800;
+}
+
